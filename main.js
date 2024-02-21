@@ -19,3 +19,10 @@ function navigate(destination) {
       breadcrumb.appendChild(newListItem);
     }
   }
+
+// newsletter js 
+document.getElementById("subscribeForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+    // Add your subscription logic here
+    alert("Thank you for subscribing!");
+  });
