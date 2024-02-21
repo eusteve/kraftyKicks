@@ -1,3 +1,7 @@
+/*logo  */
+span{
+  color: #007bff;
+}
 /* discounts section   */
 .discounts{
     margin-bottom: 0;
@@ -344,5 +348,11 @@ font-weight: 100;
 
   .contact-info {
     font-size: 14px;
+  }
+
+  /* product section */
+  .product-container {
+display: flex;
+flex-wrap: wrap;
   }
   
