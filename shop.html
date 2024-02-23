@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>KraftyKicks</title>
+</head>
+<body>
+        <!--search_bar-->
+    <div class="search-section">
+        <input type="text" id="searchInput" placeholder="Search for a Shoe..."/><br>
+        <i class='bx bx-search-alt-2  search-icon'></i>
+        <button onclick="searShoe()" class="search-btn">Search</button>
+    </div>
+      <!-- navbar here -->
+      <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        
+        <div class="dropdown">
+          <button class="dropbtn">Services
+            <!-- You can add an arrow or any other indicator here -->
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Service 1</a>
+            <a href="#">Service 2</a>
+            <a href="#">Service 3</a>
+            <!-- Add more services as needed -->
+          </div>
+        </div>
+        
+        <a href="#">Contact</a>
+        <button type="button" class="login-btn" onclick="login()">Login</button>
+        <button type="button" class="signup-btn" onclick="signUp()">Register</button>
+        </div>
+      </div>
+
+      <!-- product section-->
+      <section class="products">
+        <h1>Product Details:</h1><hr/>
+  
+        <div class="product-container">
+              <div class="product-row">
+                  <div class="product-col">
+                      <img src="images/amended_1.jpg" alt="" class="product-image">
+                      <h2 class="product-name">Some Product</h2>
+                      <p class="product-description">product description here</p>
+                      <p class="availabity">Quantity</p> <!--availability implemented here -->
+                    <input type="text" name="quantity" id="quantity">
+                  </div>
+  
+                  <div class="product-col">
+                    <img src="images/amended_1.jpg" alt="" class="product-image">
+                    <h2 class="product-name">Some Product</h2>
+                    <p class="product-description">product description here</p>
+                    <p class="availabity">Quantity</p> <!--availability implemented here -->
+                  <input type="text" name="quantity" id="quantity">
+                </div>
+  
+                <div class="product-col">
+                  <img src="images/amended_1.jpg" alt="" class="product-image">
+                  <h2 class="product-name">Some Product</h2>
+                  <p class="product-description">product description here</p>
+                  <p class="availabity">Quantity</p> <!--availability implemented here -->
+                <input type="text" name="quantity" id="quantity">
+              </div>
+  
+              <div class="product-col">
+                <img src="images/amended_1.jpg" alt="" class="product-image">
+                <h2 class="product-name">Some Product</h2>
+                <p class="product-description">product description here</p>
+                <p class="availabity">Quantity</p> <!--availability implemented here -->
+              <input type="text" name="quantity" id="quantity">
+            </div>
+  
+            <div class="product-col">
+              <img src="images/amended_1.jpg" alt="" class="product-image">
+              <h2 class="product-name">Some Product</h2>
+              <p class="product-description">product description here</p>
+              <p class="availabity">Quantity</p> <!--availability implemented here -->
+            <input type="text" name="quantity" id="quantity">
+          </div>
+  
+          <div class="product-col">
+            <img src="images/amended_1.jpg" alt="" class="product-image">
+            <h2 class="product-name">Some Product</h2>
+            <p class="product-description">product description here</p>
+            <p class="availabity">Quantity</p> <!--availability implemented here -->
+          <input type="text" name="quantity" id="quantity">
+        </div>
+  
+        <div class="product-col">
+          <img src="images/amended_1.jpg" alt="" class="product-image">
+          <h2 class="product-name">Some Product</h2>
+          <p class="product-description">product description here</p>
+          <p class="availabity">Quantity</p> <!--availability implemented here -->
+        <input type="text" name="quantity" id="quantity">
+      </div>
+  
+              <div class="product-col">
+                <img src="images/amended_1.jpg" alt="" class="product-image">
+                <h2 class="product-name">Some Product</h2>
+                <p class="product-description">product description here</p>
+                <p class="availabity">Quantity</p> <!--availability implemented here -->
+              <input type="text" name="quantity" id="quantity">
+            </div>
+  
+            <div class="product-col">
+              <img src="images/amended_1.jpg" alt="" class="product-image">
+              <h3 class="product-name">Some Product</h3>
+              <p class="product-description">product description here</p>
+              <p class="availabity">Quantity</p> <!--availability implemented here -->
+            <input type="text" name="quantity" id="quantity">
+          </div>
+  
+          <div class="product-row">
+            <div class="product-col">
+                <img src="images/amended_1.jpg" alt="" class="product-image">
+                <h2 class="product-name">Some Product</h2>
+                <p class="product-description">product description here</p>
+                <p class="availabity">Quantity</p> <!--availability implemented here -->
+              <input type="text" name="quantity" id="quantity">
+            </div>
+  
+            <div class="product-col">
+              <img src="images/amended_1.jpg" alt="" class="product-image">
+              <h2 class="product-name">Some Product</h2>
+              <p class="product-description">product description here</p>
+              <p class="availabity">Quantity</p> <!--availability implemented here -->
+            <input type="text" name="quantity" id="quantity">
+          </div>
+  
+          <div class="product-col">
+            <img src="images/amended_1.jpg" alt="" class="product-image">
+            <h2 class="product-name">Some Product</h2>
+            <p class="product-description">product description here</p>
+            <p class="availabity">Quantity</p> <!--availability implemented here -->
+          <input type="text" name="quantity" id="quantity">
+        </div>
+  
+        <div class="product-col">
+          <img src="images/amended_1.jpg" alt="" class="product-image">
+          <h2 class="product-name">Some Product</h2>
+          <p class="product-description">product description here</p>
+          <p class="availabity">Quantity</p> <!--availability implemented here -->
+        <input type="text" name="quantity" id="quantity">
+      </div>
+  
+      <div class="product-col">
+        <img src="images/amended_1.jpg" alt="" class="product-image">
+        <h2 class="product-name">Some Product</h2>
+        <p class="product-description">product description here</p>
+        <p class="availabity">Quantity</p> <!--availability implemented here -->
+      <input type="text" name="quantity" id="quantity">
+    </div>
+  
+    <div class="product-col">
+      <img src="images/amended_1.jpg" alt="" class="product-image">
+      <h2 class="product-name">Some Product</h2>
+      <p class="product-description">product description here</p>
+      <p class="availabity">Quantity</p> <!--availability implemented here -->
+    <input type="text" name="quantity" id="quantity">
+  </div>
+  
+  <div class="product-col">
+    <img src="images/amended_1.jpg" alt="" class="product-image">
+    <h2 class="product-name">Some Product</h2>
+    <p class="product-description">product description here</p>
+    <p class="availabity">Quantity</p> <!--availability implemented here -->
+  <input type="text" name="quantity" id="quantity">
+  </div>
+  
+        <div class="product-col">
+          <img src="images/amended_1.jpg" alt="" class="product-image">
+          <h2 class="product-name">Some Product</h2>
+          <p class="product-description">product description here</p>
+          <p class="availabity">Quantity</p> <!--availability implemented here -->
+        <input type="text" name="quantity" id="quantity">
+      </div>
+  
+      <div class="product-col">
+        <img src="images/amended_1.jpg" alt="" class="product-image">
+        <h3 class="product-name">Some Product</h3>
+        <p class="product-description">product description here</p>
+        <p class="availabity">Quantity</p> <!--availability implemented here -->
+      <input type="text" name="quantity" id="quantity">
+    </div>
+  
+    <div class="product-row">
+      <div class="product-col">
+          <img src="images/amended_1.jpg" alt="" class="product-image">
+          <h2 class="product-name">Some Product</h2>
+          <p class="product-description">product description here</p>
+          <p class="availabity">Quantity</p> <!--availability implemented here -->
+        <input type="text" name="quantity" id="quantity">
+      </div>
+  
+      <div class="product-col">
+        <img src="images/amended_1.jpg" alt="" class="product-image">
+        <h2 class="product-name">Some Product</h2>
+        <p class="product-description">product description here</p>
+        <p class="availabity">Quantity</p> <!--availability implemented here -->
+      <input type="text" name="quantity" id="quantity">
+    </div>
+  
+    <div class="product-col">
+      <img src="images/amended_1.jpg" alt="" class="product-image">
+      <h2 class="product-name">Some Product</h2>
+      <p class="product-description">product description here</p>
+      <p class="availabity">Quantity</p> <!--availability implemented here -->
+    <input type="text" name="quantity" id="quantity">
+  </div>
+  
+  <div class="product-col">
+    <img src="images/amended_1.jpg" alt="" class="product-image">
+    <h2 class="product-name">Some Product</h2>
+    <p class="product-description">product description here</p>
+    <p class="availabity">Quantity</p> <!--availability implemented here -->
+  <input type="text" name="quantity" id="quantity">
+  </div>
+  
+  <div class="product-col">
+  <img src="images/amended_1.jpg" alt="" class="product-image">
+  <h2 class="product-name">Some Product</h2>
+  <p class="product-description">product description here</p>
+  <p class="availabity">Quantity</p> <!--availability implemented here -->
+  <input type="text" name="quantity" id="quantity">
+  </div>
+  
+  <div class="product-col">
+  <img src="images/amended_1.jpg" alt="" class="product-image">
+  <h2 class="product-name">Some Product</h2>
+  <p class="product-description">product description here</p>
+  <p class="availabity">Quantity</p> <!--availability implemented here -->
+  <input type="text" name="quantity" id="quantity">
+  </div>
+  
+  <div class="product-col">
+  <img src="images/amended_1.jpg" alt="" class="product-image">
+  <h2 class="product-name">Some Product</h2>
+  <p class="product-description">product description here</p>
+  <p class="availabity">Quantity</p> <!--availability implemented here -->
+  <input type="text" name="quantity" id="quantity">
+  </div>
+  
+  <div class="product-col">
+    <img src="images/amended_1.jpg" alt="" class="product-image">
+    <h2 class="product-name">Some Product</h2>
+    <p class="product-description">product description here</p>
+    <p class="availabity">Quantity</p> <!--availability implemented here -->
+  <input type="text" name="quantity" id="quantity">
+  </div>
+  
+  <div class="product-col">
+  <img src="images/amended_1.jpg" alt="" class="product-image">
+  <h3 class="product-name">Some Product</h3>
+  <p class="product-description">product description here</p>
+  <p class="availabity">Quantity</p> <!--availability implemented here -->
+  <input type="text" name="quantity" id="quantity">
+  </div>
+      </div>
+  
+           <!-- end of product-container -->
+  
+  </section>
+          <!--trending section-->
+  
+  
+</body>
+</html>
