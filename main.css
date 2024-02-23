@@ -353,8 +353,25 @@ font-weight: 100;
 }
 
   /* product section */
-  .product-container {
-display: flex;
-flex-wrap: wrap;
+
+  .product-row {
+      display:flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items:center;
+  }
+
+
+  /*upcoming section */
+  .upcoming{
+    margin-bottom: 20px;
+  }
+
+
+  .upcoming{
+      display: flex;
+  }
+  .upcoming-product{
+
   }
   
