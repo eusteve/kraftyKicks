@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KraftyKicks</title>
+    <style>
+        body{
+            background-image: url(images/shoe_bokeh.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .header{
+            color: white;
+            margin-bottom: 10%;
+            font-size: 65px;
+            text-align: center;
+        }
+        span{
+            color: blue;
+        }
+             .form-container{
+               display: flex;
+               align-items: center;
+               justify-content: center;
+
+               font-size: 30px;
+               
+              
+                
+             }
+             
+             .signup-section {
+            display: none;
+        }
+        #login-section,#signup-section{
+            background-color: rgba(74,87,150, 0.8);
+            color: white;
+            border: 1 px solid;
+            padding: 25px;
+            text-align: center;
+            border-radius: 5px;
+            width: fit-content;
+        }
+        #login-username,#login-password,#signup-username,#signup-password{
+            border: 2px solid black;
+        }
+        #login-username,#login-password,#signup-username,#signup-password :hover{
+            
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        #login-btn{
+            margin-top: 4px;
+            margin-bottom: 10px;
+        }
+        .motto{
+            margin-top: 10%;
+            text-align: center;
+        }
+        p{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 35px;
+            color: white;
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body>
+    <!--logo here-->
+        <div class="header">
+            Krafty<span>Kicks</span>
+        </div>
+    <div class="form-container">
+        <div id="login-section">
+            <h2>Login</h2>
+            <form id="login-form" action="main.html" method="post">
+                <!-- Login form fields go here -->
+                <label for="login-username">Username:</label>
+                <input type="text" id="login-username" name="login-username" required><br>
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" name="login-password" required><br>
+                <button type="submit" id="login-btn">Login</button> <br>
+                <input type="checkbox" name="rem-password" id="c-box">remember password</input><br>
+                <button type="button" onclick="toggleForm('signup')">Sign Up</button>
+               
+            </form>
+        </div>
+
+        <div id="signup-section" class="signup-section">
+            <h2>Sign Up</h2>
+            <form id="signup-form" action="main.html" method="post">
+                <!-- Sign-up form fields go here -->
+                <label for="signup-username">Username:</label>
+                <input type="text" id="signup-username" name="signup-username" required><br>
+                <label for="signup-password">Password:</label>
+                <input type="password" id="signup-password" name="signup-password" required><br>
+                <label for="signup-password">passWord</w>:</label>
+                <input type="password" id="signup-password" name="signup-password" required><br><br>
+                <button type="submit">Sign Up</button><br>
+                <input type="checkbox" name="rem-password" id="c-box">remember password</input><br>
+                <br> <button type="button" onclick="toggleForm('login')">Login</button>
+            </form>
+        </div>
+    </div>
+    <div class="motto">
+        <p>" A Step into Greatness "</p>
+    </div>
+
+            <script src="main.js">
+                
+            </script>
+
+</body>
+</html>

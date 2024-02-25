@@ -53,4 +53,20 @@ document.getElementById("subscribeForm").addEventListener("submit", function(eve
     }
 
     slides[slideIndex - 1].style.display = "block";
+
   }
+
+  // script for login page
+  function toggleForm(formType) {
+    const loginSection = document.getElementById('login-section');
+    const signupSection = document.getElementById('signup-section');
+
+    if (formType === 'signup') {
+        loginSection.style.display = 'none';
+        signupSection.style.display = 'block';
+    } else {
+        loginSection.style.display = 'block';
+        signupSection.style.display = 'none';
+    }
+}
+
