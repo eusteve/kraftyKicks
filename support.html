@@ -5,6 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KraftyKicks</title>
     <link rel="stylesheet" href="main.css">
+      <style>
+        body{
+          margin: auto;
+        }
+        .FAQ{
+          background-color: aqua;
+        }
+        .cdp-form{
+          background-color: rgba(70,150,69,1);
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction:column
+          justify-content: center;
+          align-items: center;
+          width: fit-content;
+        }
+
+        .FAQ{
+              padding: 5px;
+              margin: 4px;
+        }
+  
+      </style>
     
 </head>
 <body>
@@ -44,8 +67,9 @@
 
       <h4> <a href="http://">CDP Programme</a></h4>
       <p>As part of our mission to give back to the community Krafty Kicks gound the <strong>Child Development Programme</strong> that focuses on nirturing young talent & skills in students 
-      by sponsoring meals and sports events and donations to various organizations in need. If you would like to  participate in the programme the you can email us using the link below:
-       <form action="cdp.html" method="post">
+      by sponsoring meals and sports events and donations to various organizations in need. If you would like to  participate in the programme the you can email us using the link below: 
+                                 
+       <form class="cdp-form" action="cdp.html" method="post">
           <label for="name">Name:</label><br>
           <input type="text" id="name" name="name"><br>
           <input type="checkbox" name="remainder" id="rem-option"><p>Get weekly notifications on CDP?</p>
@@ -66,16 +90,16 @@
             Equal chances shall be offered to each employee in the selection of candidates for recruitment into CDP.</p> Job Offers<br> Job Offers are listed below, click the job Job Offers</p>
          Job Offers are listed below, if you wish to apply please click the "Apply Now" button next to each job posting. If
          Job Offers are listed below, if
-       <form action="cdp.html" method="post">
+       <form action="cdp.html" class="cdp-form" method="post">
           <label for="name">Name:</label><br>
           <input type="text" id="name" name="name"><br>
           <input type="checkbox" name="remainder" id="rem-option"><p>Get weekly notifications on CDP?</p>
           <label for="email">Email:</label><br>
-              <input type="email" name="email" id="mail">
+              <input type="email" name="email" id="mail">        
        </form>
 
        <br>
-       you can reach out to us using via email : info@cdp.org
+       you can reach out to us using via email : info@cdp.org 
       </p>
     </div>
                 
