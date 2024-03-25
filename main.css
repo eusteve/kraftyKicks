@@ -374,4 +374,43 @@ font-weight: 100;
   .upcoming-product{
 
   }
+
+
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+
+
+  }
+
+  .product-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Media Query for Desktop */
+  @media screen and (min-width: 992px) {
+    .product-container {
+      grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+    }
+  }
+
+  /* Media Query for Tablet */
+  @media screen and (max-width: 991px) and (min-width: 768px) {
+    .product-container {
+      grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+    }
+  }
+
+  /* Media Query for Mobile */
+  @media screen and (max-width: 767px) {
+    .product-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+    }
+  }
+
+
   
